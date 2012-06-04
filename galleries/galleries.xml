@@ -1,0 +1,14 @@
+<galleries>
+  <gallery base="test_album1/" file="test_album1.xml">
+    <sitename>test1</sitename>
+    <photographer>me</photographer>
+
+    <security><![CDATA[]]> </security>    
+  </gallery>
+  
+  <gallery base="test_album2/" file="test_album2.xml">
+    <sitename>test2</sitename>
+    <photographer>me2</photographer>
+    <security><![CDATA[]]> </security>
+  </gallery>
+</galleries>

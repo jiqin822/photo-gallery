@@ -1,0 +1,38 @@
+
+
+root { 
+    display: block;
+}
+
+img.thumbs {
+    float:left;
+    height:60px;
+    width:60px;
+    margin-right: 2px;
+    margin-bottom: 2px;
+    border: solid black 1px;
+}
+#main {
+    position:absolute;
+    left:476px;
+    top:128px;
+    width:491px;
+    height:315px;
+    z-index:2;
+}
+#thumbContainer {
+    left:23px;
+    top:127px;
+    width:437px;
+    height:430px;
+    z-index:1;
+    position:absolute;
+}
+#header {
+    position:absolute;
+    left:313px;
+    top:14px;
+    width:295px;
+    height:95px;
+    z-index:3;
+}

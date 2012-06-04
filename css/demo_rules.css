@@ -1,0 +1,407 @@
+@charset "UTF-8";
+
+body {
+    margin: 0;
+    padding: 0;
+    color: #cccccc;
+    font-family: "Lucida Grande", "Trebuchet MS", sans-serif;
+    font-size: x-small; 
+    voice-family: "\";
+    voice-family: inherit;
+    font-size: small;
+    background-color: #cccccc;
+}
+
+#comment{
+    font-family: "Lucida Grande", "Trebuchet MS", sans-serif;
+    color: #ffffff;
+}
+
+#info{
+    
+    position: fixed;
+    left: 500px;
+    top: 880px;
+    float: right;
+    z-index: 10;
+}
+.sidebar {
+	float: right;
+	width: 15%;
+	background-color: #ccccff;
+	height: 40em;
+        z-index: 8;
+        position: relative;
+    visibility: visible;
+}
+
+.main {
+	float: left;
+	width: 50%;
+	background-color: #3399FF;
+	height: 40em;
+        z-index: 1;
+        top: 80px;
+}
+
+.menubarWrapper {
+	background-color: #EEE;
+	float: left;
+	width: 100%;
+}
+/* Links
+----------------------------------------------- */
+a img { border-style: none; }
+
+h2, h3, h4, h5, h6 {
+    font-weight: normal; 
+                    color: #ffffff;
+}
+
+h1 {font-weight: normal; font-size: 165%; text-align: left; color: #fff; 
+}
+p,label,td { margin:0.375em 0; 
+          color: #83827e;
+}
+
+a{
+
+    font-family: "Lucida Grande", "Trebuchet MS", sans-serif;
+    color: #369393;
+}
+
+
+/* Layout Rules
+----------------------------------------------- */
+#greeting {
+    font-weight: bolder;
+    color: #000033;
+    position: relative;
+    top: -10px;
+    font-style: normal;
+    background-position: top;
+    padding-top: 15px;
+    margin: 0 20px;
+    font-size: large;
+    font-family: "Lucida Grande", "Trebuchet MS", sans-serif;
+
+    background-color: #82dada;
+    padding-bottom: 15px;
+    z-index: 1;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: left;
+}
+#wrap {
+    padding-top: 20px;
+    margin: 0 20px;
+}
+
+#header {
+    margin-bottom: 2em;
+    text-align: left;
+    padding-left: 0.5em;
+}
+#LeftColumn {
+    margin:0 10px 0 0;
+    padding:0;
+    width: 200px;
+    float: left;
+}
+#LeftColumn, #articles {
+    border-left: solid 1px #404040;
+    border-right: solid 1px #404040;
+    border-bottom: solid 1px #404040;
+}
+#articles {	margin-bottom: 10px; }
+
+#RightColumn {
+    margin:0;
+    padding:0;
+    height: 600px;
+    float: left;
+    width: 750px;
+}
+#content, #sidebar {
+    float: left;
+    text-align: left;
+}
+#content {
+    width: 600px;
+    margin-right: 15px;
+    padding-top: 5px;
+}
+#sidebar {
+    width: 240px;
+    margin-top: 0;
+}
+.SpryHiddenRegion {
+    visibility: hidden;
+}
+
+/* Form Elements*/
+label, select{ 
+    font-size: 85%;
+    font-family: "Lucida Grande", "Trebuchet MS", sans-serif;
+    
+
+    color: #362c27;
+}
+input,table { 
+    font-family: "Lucida Grande", "Trebuchet MS", sans-serif;
+
+    color: #584d45;
+}
+form { 
+    font-family: "Lucida Grande", "Trebuchet MS", sans-serif;
+
+    color: #333333;
+}
+/*Album Selector*/
+select {
+    background-color:  #c9e1e9;
+    border: 1px solid #b1b1bc;
+
+    width: 100px;
+    clip: rect(0px, 100px, 0px, 0px);
+}
+
+/* Table Rules*/
+td.rank { }
+
+#products { 
+    border-collapse:collapse;
+    empty-cells:show;
+    width:100%;
+    margin: 0;
+}
+#products caption {
+    color: #fff;
+    text-transform:uppercase;
+    text-align: left;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    background-color: #FD2800;
+    padding: 0.375em;
+    border-top: solid 1px #999;
+    border-bottom: solid 1px #3a3a3a;
+}
+#products th {
+    padding: 6px 0.25em;
+    color: #333333;	
+    font-weight: bold;
+    margin: 0;
+    cursor: pointer;
+}
+
+#products th.infocus { background-color: #E6E6E6; }
+#products th.selected {	color: #EAEAEA; }
+
+#products td, #products th { 
+    margin: 0; 
+    padding: 0.25em 0.375em 0.45em 0.375em;
+    text-align: left;
+}
+#products tr {
+    border-bottom: solid 1px #202020;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+}
+#products tr.infocus {
+    background-color:#dfdfdf;
+    cursor: pointer;
+}
+
+#products tr.notinfocus { background-color:#fff; }
+#products tr.selected { color:#fc0; }
+#products tbody { margin-top: 0; }
+.even { background-color: #151515; }
+
+.rowHover {
+    color: #000;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+
+.rowSelected { color: #fc0; }
+
+.productinfo {
+    width: 700px;
+    margin-left: 250px;
+}
+
+.category {
+    float:right;
+    margin-top:18px;
+}
+
+.boximage {
+    float: left;
+    background-color: white;
+}
+
+#gallerySelect { width: 180px; }
+#controls {	margin:0 auto 10px auto; }
+#galleries {	margin:0 auto 20px auto; }
+#galleries label { padding-bottom: 2px; }
+
+#galleryLinks a {
+    color: white;
+    text-decoration: none;
+}
+
+#transport {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+#transport li {
+    float: left;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+#transport a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 85%;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    margin: 0 1px 0 0;
+    padding: 4px 8px;
+    width: 64px;
+    float: left;
+    display: block;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+}
+#transport a:link {
+    color: #fff;
+    border-top: solid 1px #999;
+    border-right: solid 1px #404040;
+    border-bottom: solid 1px #3a3a3a;
+    border-left: solid 1px #404040;
+}
+#transport a:visited {
+    color: #fff;
+    border-top: solid 1px #999;
+    border-right: solid 1px #404040;
+    border-bottom: solid 1px #3a3a3a;
+    border-left: solid 1px #404040;
+}
+#transport a:hover {
+    color: #000;
+    border-top: solid 1px #999;
+    border-right: solid 1px #404040;
+    border-bottom: solid 1px #3a3a3a;
+    border-left: solid 1px #404040;
+}
+#transport a:focus {
+    -moz-user-select: none;
+    -khtml-user-select: none;
+}
+
+#transport .playBtn .pauseLabel, #transport .pauseBtn .playLabel {
+    display: none;
+}
+
+#previews {
+    padding: 10px 10px 20px 10px;        
+    margin-bottom: 5px;
+    width: 200px;
+    float: left;
+    margin-right: 10px;
+    position: relative;
+    color: #ffffff;
+    font-weight: bolder;
+    border-right-style: outset;
+    border-left-style: outset;
+    border-bottom-style: outset;
+    border-top-style: outset;
+    border-right-width: 2px;
+    border-left-width: 2px;
+    border-bottom-width: 2px;
+    border-top-width: 2px;
+    border-right-color: #666666;
+    border-left-color: #666666;
+    border-bottom-color: #666666;
+    border-top-color: #666666;
+    margin-top: 50px;
+    font-family: "Lucida Grande", "Trebuchet MS", sans-serif;
+
+    right: 468px;
+    background-color: #cccccc;
+}
+#thumbnails {
+    clear: both;
+    margin: 10px auto;
+}
+#thumbnails div {
+    position: relative;
+    width: 24px;
+    height: 24px;
+    float: left;
+    margin: 8px;
+    padding: 0;
+    float: left;
+    display:inline;
+}
+#thumbnails img {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+
+    border-right-color: #3fa7a7;
+    border-left-color: #3fa7a7;
+    border-bottom-color: #3fa7a7;
+    border-top-color: #3fa7a7;
+    border-right-width: 1px;
+    border-left-width: 1px;
+    border-bottom-width: 1px;
+    border-top-width: 1px;
+    border-right-style: inset;
+    border-left-style: inset;
+    border-bottom-style: inset;
+    border-top-style: inset;
+}
+#picture {
+    padding: 0px;
+    width: 500px;
+    float: left;
+}
+#mainImageOutline {
+    margin: 0 auto;
+    padding: 0;
+    background-color: #eee;
+    border-top: solid 1px #999;
+    border-right: solid 1px #404040;
+    border-bottom: solid 1px #333;
+    border-left: solid 1px #404040;
+    padding: 1em; 
+    overflow: hidden; 
+    width: 0px;
+    height: 0px;
+
+    position: relative;
+    right: 450px;
+    top: 50px;
+}
+#mainImage {
+    width: 100%;
+    height: 100%;
+}
+
+#picture img {	border: 1px solid #999; }
+.selectedThumbnail {  border: solid 2px #fc0 !important; }
+.inFocus {  border: solid 1px #fc0 !important; }
+
+/* Navigation Classes
+----------------------------------------------- */
+.demo a, .return a, .demo a, .source a {
+    text-decoration: none; 
+    font-size: small;
+    font-weight: normal;
+    margin-left: 24px;
+    padding-left: 16px;
+}
+

@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<galleries>
+  <gallery base="9/" file="9.xml">
+    <sitename>album2</sitename>
+    <photographer>me</photographer>
+    <security>&lt;![CDATA[ ]]&gt;</security>
+  </gallery>
+  <gallery base="8/" file="8.xml">
+    <sitename>album1</sitename>
+    <photographer>me</photographer>
+    <security>&lt;![CDATA[ ]]&gt;</security>
+  </gallery>
+</galleries>
